@@ -7,17 +7,17 @@ import emoji from "react-easy-emoji";
 // Summary And Greeting Section
 
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: false // Set to false to use static SVG
 };
 
 const greeting = {
   username: "Kalpani Wijegunawardana",
-  title: "Hi all, I'm Kalpani",
+  title: "Hi, I'm Kalpani Wijegunawardana",
   subTitle: emoji(
-    "I like developing new things, learning new technologies and meeting new people."
+    "I'm a Freelance Graphic Designer and I love to help people to promote their products by using attractive designs.(Social Media Marketing)"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1TIM8NfTin2NRr4mvRbw99Qg0FvjEKHTr/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -37,12 +37,12 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "About Me",
-  subTitle: "I'm a third year undergraduate of Department of Information & Communication Technology, university of Sri Jayewardenepura.",
+  subTitle: "I'm a third year undergraduate of Department of Information & Communication Technology, faculty of Humanities and Social Sciences university of Sri Jayewardenepura. I want to keep up with the ever-evolving technology and conquer the world with new technologies.",
   skills: [
     emoji(
-      "⚡ I am sociable, energetic and friendly person. My interpersonal skills make me a good communicator, able to work well with others."
+      "⚡ I Have a good knowledge about the programming concepts such as OOP as well as good knowledge about WEB developing and designing."
     ),
-    emoji("⚡I motivate and encourage people around me. I am self-aware and always seek to learn and grow. "),
+    emoji("⚡I have a passion for design and believe there’s an opportunity to create something beautiful with every project."),
     emoji(
       "⚡ I am not scared of undertaking new responsibilities no matter the degree of difficulty. I am a critical thinker and a good researcher."
     )
@@ -52,6 +52,47 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
+    {
+      skillName: "html-5",
+      fontAwesomeClassname: "fab fa-html5"
+    },
+    {
+      skillName: "css3",
+      fontAwesomeClassname: "fab fa-css3-alt"
+    },
+    
+    {
+      skillName: "JavaScript",
+      fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "reactjs",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "nodejs",
+      fontAwesomeClassname: "fab fa-node"
+    },
+    
+    {
+      skillName: "npm",
+      fontAwesomeClassname: "fab fa-npm"
+    },
+    {
+      skillName: "sql-database",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    
+    {
+      skillName: "firebase",
+      fontAwesomeClassname: "fas fa-fire"
+    },
+    {
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    
+  
     
   ],
   display: true // Set false to hide this section, defaults to true
@@ -89,7 +130,7 @@ const techStack = {
   experience: [
     {
       Stack: "Graphic Designing", //Insert stack or technology you have experience in
-      progressPercentage: "45%" //Insert relative proficiency in percentage
+      progressPercentage: "65%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -115,32 +156,39 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: false, //Set it to true to show workExperiences Section
+  display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "IT Director",
+      company: "Green Pulse Foundation",
+      companylogo: require("./assets/images/gpf.png"),
+      date: "June 2020 – Present",
+      desc: "Green Pulse Foundation is the Sri Lankan Movement for a green economy. The mission of Green Pulse is to promote the green economy principles and practices within the context of sustainable development and poverty eradication.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "As a IT director I give my fully commitment for achieve organization's goals ",
+        
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Graphic Designer",
+      company: "IEEE Student branch-University of Sri Jayewardenepura",
+      companylogo: require("./assets/images/iee.jpg"),
+      date: "August 2021 – present",
+      desc: "IEEE Student Branch of the University of Sri Jayewardenepura is the latest addition to the Student Branches of the IEEE Sri Lanka Section."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Graphic Designer",
+      company: "Japura Flames",
+      companylogo: require("./assets/images/flames.png"),
+      date: "Jan 2021 – present",
+      desc: "The best media coverage of sports and events of University of Sri Jayewardenepura. J’pura flames crew promotes and supports all functions and events of the university making mother Jpura reach great heights."
+    },
+    {
+      role: "Graphic Designer",
+      company: "Japura Youth Assurance Society",
+      companylogo: require("./assets/images/yas.jpg"),
+      date: "Sep 2021 – present",
+      desc: "J'pura Youth Assurance Society is a youth community organization that focuses on youth generation. Our vision is to build a secure society with well-being, courage, defense, and peace."
     }
   ]
 };
@@ -150,7 +198,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -159,10 +207,57 @@ const bigProjects = {
   title: "Projects",
   subtitle: "SOME OF THE PROJECTS THAT I'VE DEVELOPED.",
   projects: [
+    
+    {
+      image: require("./assets/images/web.png"),
+      projectName: "UI design for online clothing store",
+      projectDesc: "This is the web site UI design mainly created for purchasing clothes using online platform",
+      footerLink: [
+        {
+          name: "Explore",
+          url: "https://www.behance.net/gallery/125783347/My-first-UI-design-for-online-clothing-center"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
     {
       image: require("./assets/images/hmsystem.jpg"),
       projectName: "Hospital Management System",
-      projectDesc: "Using this system users can do their requirements easily",
+      projectDesc: "This system is mainly created for e-channeling and some other services. This system is helpful and time saving both patients as well as doctors. and hospital staff.",
+      footerLink: [
+        {
+          name: "Explore",
+          url: "https://github.com/JayanikaGithub"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/library.jpg"),
+      projectName: "Library Management System",
+      projectDesc: "A library management system is software that is designed to manage all the functions of a library. It helps librarian to maintain the database of new books and the books that are borrowed by members along with their due dates. This system completely automates all your library's activities.",
+      footerLink: [
+        {
+          name: "Explore",
+          url: "https://github.com/JayanikaGithub"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/co.jpeg"),
+      projectName: "Coffee table book for hotel in Sigiriya",
+      projectDesc: "A coffee table book, also known as a cocktail table book, is an oversized, usually hard-covered book whose purpose is for display on a table intended for use in an area in which one entertains guests and from which it can serve to inspire conversation or pass the time.This book is created for tourist hotel and this book include attractive places in Sri Lanka.",
+      footerLink: [
+        {
+          name: "Explore",
+          url: "https://drive.google.com/drive/folders/1QB6VhsZXouvsK3dTmYH8t3ATVjHc3klk?usp=sharing"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/plant.jpeg"),
+      projectName: "Plant App",
+      projectDesc: "This app is created for plant nursery and using this app users can order their needs with few clicks",
       footerLink: [
         {
           name: "Explore",
@@ -172,24 +267,13 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/library.jpg"),
-      projectName: "Library Management System",
-      projectDesc: "Using this system users can do their requirements easily",
+      image: require("./assets/images/m1.jpeg"),
+      projectName: "Website for relax with music",
+      projectDesc: "This is the very simple website that is created for easily find the songs and knowing the history and all the details of songs.",
       footerLink: [
         {
           name: "Explore",
-          url: "https://github.com/JayanikaGithub/plant_app/tree/Dev/app"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/pl nt.png"),
-      projectName: "Plant App",
-      projectDesc: "This app is created for plant nursery and using this app users can order their needs with few clicks",
-      footerLink: [
-        {
-          name: "Explore",
-          url: "https://github.com/JayanikaGithub/plant_app/tree/Dev/app"
+          url: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
         }
         //  you can add extra buttons here.
       ]
@@ -283,7 +367,7 @@ const blogSection = {
         ""
     },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
